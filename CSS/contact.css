@@ -1,0 +1,27 @@
+.flex{
+  position: absolute; 
+  left: 50vm;
+  font-family: 
+}
+
+
+
+#YT{
+      width: 500px;
+    padding-left: 0%;
+  }
+
+
+
+#Gmail{
+  width: 400px;
+  padding-bottom: 7%;
+} 
+  
+
+
+#degree{
+  color: blue;
+  text-decoration: underline;
+  font-size: 40px;
+}

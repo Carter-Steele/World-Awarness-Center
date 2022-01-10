@@ -1,0 +1,43 @@
+html{
+  min-height: 100vh; 
+  width: 100vw;
+  overflow-x: hidden; 
+  background-image: url('https://sites.lafayette.edu/egrs352-sp14-nuclear/files/2014/05/nuclearpowerpic.jpg'); 
+  background-size: Cover; 
+  background-repeat: no-repeat;
+  
+  
+}
+#canerlink{
+    color:  blue;
+    text-decoration:  underline;
+    font-size: medium;
+
+}
+
+p{
+font-size: 20px;
+font-family: 'Open Sans', sans-serif; 
+padding-right: 10px; 
+padding-left: 10px; 
+}
+
+
+
+div{
+  position: absolute; 
+  width: 750px; 
+  height: 500px;
+  border: solid thin  white; 
+  overflow: scroll; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  overflow-x: hidden; 
+  backdrop-filter: blur(4px); 
+}
+
+h1{
+  position: relative;
+  left: 30%; 
+}

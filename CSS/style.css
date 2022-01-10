@@ -1,0 +1,29 @@
+    html{
+    background-image: url(' https://rondreizen.net/pub/img/uploads/xCanada_Logo2.jpg.pagespeed.ic._w9lx0wa23.jpg'); 
+    background-size: Cover; 
+    background-repeat: no-repeat; 
+  }
+  
+  
+  h1{
+   
+    color:white; 
+    text-align: Center; 
+    text-transform: uppercase; 
+    padding-top: 250px; 
+  }
+  
+  
+  
+  
+  p{
+  
+    color: red; 
+    text-align: center;
+    text-transform: auto capitalize; 
+    font-size: 25px; 
+    background-color: powderblue; 
+    font-family: 'Open Sans', sans-serif;
+    
+   
+  }
