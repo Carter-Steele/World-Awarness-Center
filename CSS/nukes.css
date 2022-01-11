@@ -37,7 +37,7 @@ div{
   backdrop-filter: blur(4px); 
 }
 
-h1{
+h1{ 
   position: relative;
   left: 30%; 
 }
