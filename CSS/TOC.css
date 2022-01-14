@@ -1,5 +1,5 @@
 .container {
-  height: 90vh;
+  height: 90vh; 
   margin: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -7,29 +7,30 @@
   grid-gap: 10px 10px; 
 }
 .cell {
-  color: red;
-  font-size: 3rem;
   text-align: center;
   padding: 4rem;
+   font-family: 'Oxygen', sans-serif;  
+ 
 }
-.cell-1 {
+.cell-1 { /**The nuclear option**/
   background-image: url('https://th.bing.com/th/id/OIP.TpvT_U7Xm8AXCBO6ZAOb_wHaE8?pid=ImgDet&rs=1');
-  background-repeat: round ; 
+  background-repeat: round;
+  
 }
-.cell-2 {
+.cell-2 { /**The Endangered Bears and the Sixth Mass Extinction**/
   background-image: url('https://d279m997dpfwgl.cloudfront.net/wp/2020/07/spiritbear.jpg');
   background-repeat: round; 
 }
-.cell-3 {
+.cell-3 { /**The Time to Act is Now **/
   background: royalblue;
 }
-.cell-4 {
+.cell-4 { /** The Permian-Triassic Extinction and Modern Climate Change **/ 
   background: gold;
 }
-.cell-5 {
+.cell-5 { /**The World Has Never Been So Different **/
   background: blueviolet;
 }
-.cell-6 {
+.cell-6 { /**I hold No degrees **/
   background: limegreen;
 }
 .cell-7 {
@@ -58,6 +59,7 @@
   left: 25%;
   font-size:  100px;
   text-transform: capitalize;
+  
 }
 
 IMG{
@@ -65,6 +67,7 @@ IMG{
     width: 100%;
      
 }
+
 
 
 
