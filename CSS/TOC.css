@@ -2,14 +2,16 @@
   height: 90vh; 
   margin: 2rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 10px 10px; 
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px 10px ; 
 }
 .cell {
   text-align: center;
   padding: 4rem;
-   font-family: 'Oxygen', sans-serif;  
+  font-family: 'Oxygen', sans-serif;  
+  
+  
  
 }
 .cell-1 { /**The nuclear option**/
@@ -22,16 +24,20 @@
   background-repeat: round; 
 }
 .cell-3 { /**The Time to Act is Now **/
-  background: royalblue;
+  background-image: url('https://th.bing.com/th/id/R.e546fcc245dd7278b754b6ecfbd9de44?rik=0V2SdkETkp4xVQ&pid=ImgRaw&r=0');
+  background-repeat: round; 
 }
 .cell-4 { /** The Permian-Triassic Extinction and Modern Climate Change **/ 
-  background: gold;
+  background-image:url(https://th.bing.com/th/id/OIP.lnKHwgIQ2TFz-d1JTvxztQHaE8?pid=ImgDet&rs=1);
+  background-repeat: no-repeat;  
+
 }
 .cell-5 { /**The World Has Never Been So Different **/
-  background: blueviolet;
+  background: red;
 }
 .cell-6 { /**I hold No degrees **/
-  background: limegreen;
+  background-image: url('https://th.bing.com/th/id/R.b56597481d14337e75c169aff999c009?rik=ff%2bWI9kCK2%2fAvw&riu=http%3a%2f%2fwww.youthvillage.co.za%2fwp-content%2fuploads%2f2014%2f09%2fno-degree.jpg&ehk=70TgGzyrhBgl8K3QsN%2fepzpHjgVGKKG%2fZ50VSlccnEk%3d&risl=&pid=ImgRaw&r=0');
+ 
 }
 .cell-7 {
   background: coral;
@@ -44,14 +50,16 @@
 }
 
 
+
 #TOC{
   color:blue;
   text-decoration: underline ;
   
  
-    
+
     
 }
+
 
 .TOC-Words {
   position: absolute;

@@ -1,3 +1,14 @@
+#earth{
+    height: 800px;
+    width: 100%;
+     
+}
+.wrapper{
+  height: 90vh; 
+  margin: 10rem;
+  
+}
+
 #sources{
     text-decoration:  underline;
     color:  blue;
@@ -9,9 +20,12 @@
 
 
 h1{
-    text-decoration: underline;
-    color: green;
-    font-size:  30px;
+  position: absolute; 
+  text-decoration: underline;
+  color: green;
+  font-size:  30px;
+  left: 40%;
+  top: 70vh; 
 }
 
 
@@ -20,8 +34,3 @@ span{
 }
 
 
-img{
-    width:1500px;
-    position: relative;
-    top:  100px; 
-}

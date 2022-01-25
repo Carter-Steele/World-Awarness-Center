@@ -1,4 +1,14 @@
-
+html{
+  overflow-x: hidden; 
+}
+.wrapper{
+  height: 90vh; 
+  margin: 10rem;
+} 
+#bear{
+  height: 800px;
+  width: 100%;
+}
 
   #links{
     color: blue; 
@@ -12,4 +22,9 @@
    font-size: 20px;
  }
  
- 
+ h1{
+   position: absolute; 
+   left: 25%;
+   top: 50%; 
+   color: white; 
+ }
